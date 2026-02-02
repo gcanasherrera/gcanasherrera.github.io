@@ -6,12 +6,12 @@ subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile-1.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Leiden Observatory, 3.35</p>
+    <p>Gorlaeus Building, Einsteinweg 55</p>
+    <p>Leiden, the Netherlands</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -27,8 +27,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Welcome! I’m Dr. Guadalupe Cañas-Herrera (Cañas from my father and Herrera from my mother), a Spanish cosmologist currently based in the Netherlands. My research sits at the interface between theory and observations, with a strong focus on combining diverse astronomical probes and advanced data-analysis techniques to extract robust cosmological information.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I grew up in Cantabria, was born in Madrid, and my family roots lie in La Mancha. Alongside my scientific career, I hold a Conservatoire degree in Music and Piano, and I am also an active, certified freelance fitness instructor—two pursuits that continue to shape how I think about discipline, creativity, and balance.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Belonging to one of the first Spanish generations to fully benefit from European Union education programmes, I have followed a strongly international academic path. I completed a French bilingual secondary diploma, took part in the Comenius and Erasmus programmes, studied Dutch through the (now discontinued) Erasmus Intensive Language Courses (EILC), and travelled extensively across Europe using the Interrail Pass. I have lived in Spain, France, Germany, the United Kingdom, and the Netherlands, and I am fluent in Spanish, English, Dutch, and French, with a working knowledge of German. These experiences have fostered a strong European identity and a deep belief in international cooperation.
+
+Colleagues often describe me as (perhaps overly) disciplined, energetic, organised, and approachable. I take particular satisfaction in building structure, encouraging collaboration, and bringing people together around shared goals. Outside of work, I enjoy caring for plants and experimenting with creative home-cooking recipes for friends and family.
