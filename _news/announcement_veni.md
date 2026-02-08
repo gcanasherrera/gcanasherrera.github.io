@@ -6,7 +6,7 @@ inline: false
 related_posts: false
 ---
 
-I’m thrilled to share that I have been awarded a **Veni grant** from the Dutch Research Council (*Nederlandse Organisatie voor Wetenschappelijk Onderzoek*, NWO). This prestigious funding is part of the **NWO Talent Programme**, which supports early-career researchers to pursue their own innovative research ideas and develop as independent scientists. The Veni grant reflects recognition of scientific creativity, originality, and potential to make a substantial research impact.
+I’m thrilled to share that I have been awarded a **Veni grant** from the Dutch Research Council (_Nederlandse Organisatie voor Wetenschappelijk Onderzoek_, NWO). This prestigious funding is part of the **NWO Talent Programme**, which supports early-career researchers to pursue their own innovative research ideas and develop as independent scientists. The Veni grant reflects recognition of scientific creativity, originality, and potential to make a substantial research impact.
 
 My funded project is titled **["Unlocking the uNIverse: COsmological infeRence with Next generation galaxy surveys (UNICORN)"](https://www.nwo.nl/en/projects/zcpqi32997)**, where I will explore fundamental questions in cosmology and refine new methods of cosmological inference that advance our understanding of the Universe's largest scales and underlying physics.
 

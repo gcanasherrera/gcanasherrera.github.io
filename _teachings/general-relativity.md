@@ -7,5 +7,4 @@ year: 2024
 term: Spring
 location: Science Building, Room 202
 time: Mondays and Wednesdays, 2:00-3:30 PM
-
 ---
