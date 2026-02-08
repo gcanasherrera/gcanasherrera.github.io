@@ -13,4 +13,3 @@ My funded project is titled **["Unlocking the uNIverse: COsmological infeRence w
 This grant provides essential support — both intellectual and financial — allowing me to build on my previous work and establish an independent line of research over the coming years. I’m deeply grateful to NWO for this opportunity and to my collaborators and mentors who have supported me along the way. I look forward to sharing updates on the project as it progresses! 🚀
 
 ---
-
