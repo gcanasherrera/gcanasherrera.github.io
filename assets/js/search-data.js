@@ -51,7 +51,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "news-i-39-ve-been-awarded-a-nwo-veni-grant",
+        },{id: "post-international-day-of-women-and-girls-in-science",
+        
+          title: "International Day of Women and Girls in Science",
+        
+        description: "Few (personal) thoughts on this special day",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/women-in-stem/";
+          
+        },
+      },{id: "news-i-39-ve-been-awarded-a-nwo-veni-grant",
           title: 'I&amp;#39;ve been awarded a NWO Veni grant',
           description: "",
           section: "News",handler: () => {
