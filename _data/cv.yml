@@ -1,25 +1,25 @@
 cv:
-  name: Guadalupe Cañas-Herrera
-  label: Cosmologist | Statistical Inference & ML for Large-Scale Structure
-  email: canasherrera@strw.leidenuniv.nl
-  location: Leiden, The Netherlands
-  image: ""
-  summary: >
-    Scientist with a strong data science background, applying statistical modeling and machine learning
-    to complex scientific datasets. Proven experience developing scalable inference pipelines and
-    AI-boosted analysis methods in large international research collaborations.
+  #name: Guadalupe Cañas-Herrera
+  #label: Cosmologist | Statistical Inference & ML for Large-Scale Structure
+  #email: canasherrera@strw.leidenuniv.nl
+  #location: Leiden
+  #image: ""
+  #summary: >
+  #  Scientist with a strong data science background, applying statistical modeling and machine learning
+  #  to complex scientific datasets. Proven experience developing scalable inference pipelines and
+  #  AI-boosted analysis methods in large international research collaborations.
 
-  address:
-    street: ""
-    city: Leiden
-    region: Zuid-Holland
-    postalCode: ""
-    countryCode: NL
+  #address:
+  #  street: ""
+  #  city: Leiden
+  #  region: Zuid-Holland
+  #  postalCode: ""
+  #  countryCode: NL
 
   sections:
     Education:
       - institution: Leiden University
-        location: The Netherlands
+        location: Leiden
         url: ""
         area: Cosmology
         studyType: PhD
@@ -31,7 +31,7 @@ cv:
           - 'Thesis: "Playing dice with the universe: Bayesian statistical analyses of cosmological models and new observables".'
 
       - institution: Leiden University
-        location: The Netherlands
+        location: Leiden
         url: ""
         area: Physics (Cosmology specialization)
         studyType: MSc (Cum Laude)
@@ -42,10 +42,10 @@ cv:
         highlights: []
 
       - institution: University of Cantabria
-        location: Spain
+        location: Santander
         url: ""
-        area: Physics (Fundamental Physics track, with honours)
-        studyType: BSc
+        area: Physics (Fundamental Physics track)
+        studyType: BSc (with honours)
         start_date: 2011-09
         end_date: 2016-03
         score: ""
@@ -57,17 +57,17 @@ cv:
     Experience:
       - company: Leiden Observatory
         position: Postdoctoral Researcher
-        location: Leiden, The Netherlands
+        location: Leiden
         start_date: 2026-01
         end_date: Present
         summary: >
-          Veni-funded scientist developing AI-boosted statistical and cosmological inference methods
+          Veni-funded scientist developing AI-boosted statistical inference cosmological methods
           to extract robust constraints on dark matter and dark energy.
         highlights: []
 
       - company: Royal Observatory Edinburgh & Institute for Astrophysics
         position: Senior Research Fellow
-        location: Edinburgh, UK
+        location: Edinburgh
         start_date: 2025-10
         end_date: 2026-01
         summary: >
@@ -76,7 +76,7 @@ cv:
 
       - company: European Space Agency (ESA)
         position: Research Fellow in Space Science
-        location: Noordwijk, The Netherlands
+        location: Noordwijk
         start_date: 2022-10
         end_date: 2025-10
         summary: >
@@ -85,7 +85,7 @@ cv:
 
       - company: Lorentz Institute & Leiden Observatory
         position: De Sitter Fellow
-        location: Leiden, The Netherlands
+        location: Leiden
         start_date: 2018-09
         end_date: 2022-10
         summary: >
@@ -94,7 +94,7 @@ cv:
 
       - company: DESY
         position: Research Trainee
-        location: Zeuthen, Germany
+        location: Zeuthen
         start_date: 2016-06
         end_date: 2016-08
         summary: >
@@ -103,7 +103,7 @@ cv:
 
       - company: Instituto de Física de Cantabria
         position: Research Assistant
-        location: Santander, Spain
+        location: Santande
         start_date: 2015-10
         end_date: 2016-05
         summary: >
