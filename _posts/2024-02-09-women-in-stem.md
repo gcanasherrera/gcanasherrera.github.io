@@ -4,7 +4,7 @@ title: International Day of Women and Girls in Science
 date: 2026-02-08
 description: Few (personal) thoughts on this special day
 tags: WomenInSTEM
-categories: sample-posts
+categories: personal
 ---
 
 When I was an undergraduate student, I never quite understood why women and girls in science needed a dedicated day of visibility. In Spain, my classes were evenly split, half women and half men. It didn’t feel like something that required special attention.
