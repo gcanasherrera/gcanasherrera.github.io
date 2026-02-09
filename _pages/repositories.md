@@ -16,7 +16,6 @@ nav_order: 4
   - **Best solution:** Deploy your own instance (free, ~10 minutes) following the <a href="https://github.com/anuraghazra/github-readme-stats#deploy-on-your-own" target="_blank">deployment guide</a>
 </div>
 
-
 {% if site.data.repositories.github_users %}
 
 ## GitHub users

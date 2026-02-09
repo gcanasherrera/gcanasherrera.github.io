@@ -3,6 +3,7 @@
 ## What Was the Problem?
 
 Your repository page was not displaying properly because:
+
 1. **External service dependency**: The repository cards rely on an external service (`github-readme-stats.vercel.app`) to generate dynamic images
 2. **Service downtime**: This free, third-party service experiences frequent rate limiting and outages
 3. **No fallback**: When images fail to load, the page looked completely broken
@@ -10,18 +11,24 @@ Your repository page was not displaying properly because:
 ## What Was Fixed?
 
 ### 1. Added Helpful Information Banner
+
 The repository page now shows a clear message explaining:
+
 - Why cards might not be loading
 - Where to find your repositories directly (GitHub link)
 - How to fix the issue permanently
 
 ### 2. Improved Styling for Broken Images
+
 Added CSS to make broken images less jarring:
+
 - Images now have a subtle border and background
 - Failed images are hidden gracefully instead of showing broken image icons
 
 ### 3. Created Comprehensive Documentation
+
 Added `REPOSITORIES_TROUBLESHOOTING.md` with:
+
 - Detailed explanation of the issue
 - Step-by-step guide to deploy your own instance (recommended solution)
 - Alternative solutions (disable features, wait for recovery)
@@ -63,25 +70,31 @@ Added `REPOSITORIES_TROUBLESHOOTING.md` with:
 ## Alternative Solutions
 
 ### Option A: Temporarily Disable Trophies
+
 If you don't want to deploy your own instance right now, you can disable the trophy section:
 
 In `_config.yml`, change:
+
 ```yaml
 repo_trophies:
-  enabled: false  # Changed from true
+  enabled: false # Changed from true
 ```
 
 ### Option B: Wait for Service Recovery
+
 The default service may come back online, but this is not reliable for production use.
 
 ### Option C: Hide Repository Page
+
 If you don't need the repository page, you can:
+
 - Set `nav: false` in `_pages/repositories.md` to hide from navigation
 - Or delete the file entirely
 
 ## What to Expect After Deployment
 
 Once you deploy your own instance and update `_config.yml`:
+
 - Repository cards will display properly with images
 - Stats and language breakdowns will show
 - No more broken images or weird layout

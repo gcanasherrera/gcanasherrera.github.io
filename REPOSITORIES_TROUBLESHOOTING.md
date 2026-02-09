@@ -5,11 +5,13 @@
 **Symptom:** The repositories page looks broken, with missing or failed-to-load images where repository cards should appear.
 
 **Cause:** The repository page uses external services (primarily `github-readme-stats.vercel.app`) to generate dynamic repository cards and statistics. These services are free, third-party hosted, and can experience:
+
 - Rate limiting
 - Temporary downtime
 - Service interruptions
 
 This is **not a bug in al-folio** but a limitation of the external services. See:
+
 - [al-folio Issue #3388](https://github.com/alshedivat/al-folio/issues/3388)
 - [github-readme-stats Issue #3851](https://github.com/anuraghazra/github-readme-stats/issues/3851)
 
@@ -37,7 +39,7 @@ The best long-term solution is to deploy your own instance of these services. It
    - Open `_config.yml` in your repository
    - Find the `external_services` section
    - Update the URL:
-   
+
    ```yaml
    external_services:
      github_readme_stats_url: https://github-readme-stats-yourname.vercel.app
@@ -68,12 +70,14 @@ See: [Deployment guide](https://github.com/ryo-ma/github-profile-trophy/issues/3
 If you don't want to deploy your own instance, you can disable specific features:
 
 **Disable trophies** (in `_config.yml`):
+
 ```yaml
 repo_trophies:
-  enabled: false  # Change from true to false
+  enabled: false # Change from true to false
 ```
 
 **Disable the entire repositories page:**
+
 - Delete or rename `_pages/repositories.md`
 - Or remove it from navigation by setting `nav: false` in its frontmatter
 
@@ -86,11 +90,13 @@ The default `github-readme-stats.vercel.app` service may recover after some time
 You can manually test if the services are accessible:
 
 **Test github-readme-stats:**
+
 ```
 https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME
 ```
 
 **Test github-profile-trophy:**
+
 ```
 https://github-profile-trophy.vercel.app/?username=YOUR_GITHUB_USERNAME
 ```
