@@ -1,0 +1,10 @@
+github_users:
+  - gcanasherrera
+
+repo_description_lines_max: 2
+
+github_repos:
+  - euclidlib/euclidlib
+  - cloe-org/darkflipper
+  - gcanasherrera/Stats4Cosmology
+  - gcanasherrera/CosmicSandbox
