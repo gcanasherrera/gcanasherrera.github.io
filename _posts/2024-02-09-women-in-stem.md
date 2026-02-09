@@ -1,7 +1,7 @@
 ---
 layout: post
 title: International Day of Women and Girls in Science
-date: 2026-02-09
+date: 2026-02-08
 description: Few (personal) thoughts on this special day
 tags: WomenInSTEM
 categories: sample-posts
