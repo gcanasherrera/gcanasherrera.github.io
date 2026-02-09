@@ -169,6 +169,19 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+// Handle broken repository card images more gracefully
+.repo img {
+  min-height: 120px;
+  background-color: var(--global-bg-color);
+  border: 1px solid var(--global-divider-color);
+  border-radius: 0.25rem;
+}
+
+.repo img:not([src]),
+.repo img[src=""]{
+  opacity: 0;
+}
+
 // Social (bottom)
 
 .social {
