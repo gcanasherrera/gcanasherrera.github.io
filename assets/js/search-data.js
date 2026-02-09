@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-outreach",
+          title: "outreach",
+          description: "Public engagement, science communication, and community involvement.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/outreach/";
+          },
         },{id: "nav-cv",
           title: "CV",
           description: "",
