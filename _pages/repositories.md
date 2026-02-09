@@ -7,6 +7,15 @@ nav: true
 nav_order: 4
 ---
 
+<div class="alert alert-info" role="alert" markdown="1">
+  <strong>Note:</strong> This page uses external services (github-readme-stats.vercel.app) to display repository cards. If cards are not loading or images appear broken, the external service may be experiencing downtime. 
+  
+  **Quick fixes:**
+  - Visit your repositories directly on <a href="https://github.com/gcanasherrera" target="_blank">GitHub</a>
+  - See [REPOSITORIES_TROUBLESHOOTING.md]({{ '/REPOSITORIES_TROUBLESHOOTING' | relative_url }}) for detailed solutions
+  - **Best solution:** Deploy your own instance (free, ~10 minutes) following the <a href="https://github.com/anuraghazra/github-readme-stats#deploy-on-your-own" target="_blank">deployment guide</a>
+</div>
+
 {% if site.data.repositories.github_users %}
 
 ## GitHub users
