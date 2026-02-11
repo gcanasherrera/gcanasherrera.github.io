@@ -9,8 +9,6 @@ nav_order: 4
 
 <div class="outreach-page">
 
-## <i class="fa-solid fa-bullhorn"></i> Public Engagement & Science Communication
-
 <div class="row mt-4">
 
 <div class="col-md-12 mb-4">
@@ -164,8 +162,6 @@ nav_order: 4
 </div>
 
 ---
-
-## <i class="fa-solid fa-hands-helping"></i> Community Involvement
 
 <div class="row mt-4">
 
