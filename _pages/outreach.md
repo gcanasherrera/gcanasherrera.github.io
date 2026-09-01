@@ -43,6 +43,15 @@ nav_order: 4
 <div class="col-md-6 mb-4">
   <div class="card h-100">
     <div class="card-body">
+      <h5 class="card-title"><i class="fa-solid fa-flask"></i> <a href="https://www.sciencecafenijmegen.nl/terugblik/2026may21/" target="_blank">Speaker at Science Café Nijmegen</a></h5>
+      <p class="card-text text-muted"><strong>2026</strong></p>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-6 mb-4">
+  <div class="card h-100">
+    <div class="card-body">
       <h5 class="card-title"><i class="fa-solid fa-award"></i> <a href="https://x.com/ESA__Education/status/1756664649129279853" target="_blank">Role model for Women in STEM at ESA</a></h5>
       <p class="card-text text-muted"><strong>2024</strong></p>
     </div>
