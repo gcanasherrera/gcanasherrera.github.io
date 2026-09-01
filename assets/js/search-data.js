@@ -86,13 +86,6 @@ ninja.data = [{
           window.open("mailto:%63%61%6E%61%73%68%65%72%72%65%72%61@%73%74%72%77.%6C%65%69%64%65%6E%75%6E%69%76.%6E%6C", "_blank");
         },
       },{
-        id: 'social-bluesky',
-        title: 'Bluesky',
-        section: 'Socials',
-        handler: () => {
-          window.open("guadalupecah.bsky.social", "_blank");
-        },
-      },{
         id: 'social-inspire',
         title: 'Inspire HEP',
         section: 'Socials',
