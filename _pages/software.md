@@ -10,7 +10,7 @@ nav_order: 3
 <div class="software-page">
 
 <p class="software-intro">
-My goal is to deliver the next generation of precision cosmology results with the incoming Stage IV surveys. Over the last decade I have been involved in the development, verification and validation of the ESA Euclid mission, and along the way I have built new software to go from a cosmological model to predictions for the observables, from predictions to likelihoods, and from Euclid data products to parameter constraints I can trust.
+My goal is to deliver the next generation of precision cosmology results with the incoming Stage IV surveys. Over the last decade I have been involved in the development, verification and validation of the ESA Euclid mission, and along the way I have built new software to go from a cosmological model to predictions for the observables, from predictions to likelihoods, and from Euclid data products to parameter constraints we can trust.
 </p>
 
 <p class="software-intro">
@@ -23,9 +23,19 @@ I have always kept in mind that the best cosmological constraints we will ever a
   <a class="btn btn-sm software-btn" href="https://github.com/euclidlib" target="_blank"><i class="fa-brands fa-github"></i> euclidlib</a>
 </p>
 
-## CLOE: the Euclid likelihood
+<h2>cloe-org: the Euclid likelihood ecosystem</h2>
 
-<p>CLOE (Cosmology Likelihood for Observables in Euclid) is how Euclid goes from data to cosmological parameters. Its new generation is split into two packages: one for theory, one for likelihoods.</p>
+<p>
+CLOE (Cosmology Likelihood for Observables in Euclid) is how Euclid goes from data to cosmological parameters. At the end of 2023 it was scientifically trusted but difficult to work with: years of technical debt meant every change felt risky, and turning scientific ideas into working projects had become exhausting. To do excellent science with Euclid's data, we needed to rethink how we built our tools. In a field already full of inference codes, we needed to do things better. That is how <a href="https://github.com/cloe-org" target="_blank">cloe-org</a> was born.
+</p>
+
+<p>
+Today cloe-org is building a fully differentiable inference framework for large-scale structure cosmology and beyond: open source, modular, written in modern Python and adopted by the Euclid Consortium. It has more than 80 contributors, around 2,000 downloads every week, and papers on arXiv. Beyond cloelib and cloelike, the ecosystem includes tools for running chains at scale, blinding, figures of merit and easy installation.
+</p>
+
+<p>
+cloe-org is my little joy. It grew out of countless late nights, long discussions and difficult conversations, and above all out of the support of Euclid's younger community, who never let me down, and of the senior mentors who pushed this vision with us. What started as a difficult technical problem has become a community I am genuinely proud of, and this is just the beginning.
+</p>
 
 <div class="software-card">
   <div class="software-logo software-logo-icon"><i class="fa-solid fa-atom"></i></div>
@@ -56,7 +66,7 @@ I have always kept in mind that the best cosmological constraints we will ever a
 </div>
 
 <div class="software-card">
-  <div class="software-logo software-logo-icon"><i class="fa-solid fa-landmark"></i></div>
+  <div class="software-logo"><img src="{{ '/assets/img/software/cloe.png' | relative_url }}" alt="CLOE logo" loading="lazy"></div>
   <div class="software-body">
     <h5><a href="https://github.com/cloe-org/CLOE" target="_blank">CLOE</a> <span class="software-role">core developer</span></h5>
     <p>The original Euclid Consortium likelihood code, which we used for the official Euclid forecasts and validation. cloelib and cloelike grew out of it.</p>
@@ -66,7 +76,7 @@ I have always kept in mind that the best cosmological constraints we will ever a
   </div>
 </div>
 
-## Euclid data and statistics
+<h2>Euclid data and statistics</h2>
 
 <div class="software-card">
   <div class="software-logo"><img src="{{ '/assets/img/software/euclidlib.png' | relative_url }}" alt="euclidlib logo" loading="lazy"></div>
@@ -94,7 +104,7 @@ I have always kept in mind that the best cosmological constraints we will ever a
   </div>
 </div>
 
-## Teaching and reproducibility
+<h2>Teaching and reproducibility</h2>
 
 <div class="software-card">
   <div class="software-logo software-logo-icon"><i class="fa-solid fa-chalkboard-user"></i></div>

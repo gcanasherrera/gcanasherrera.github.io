@@ -268,8 +268,8 @@ display_categories: [] # these categories will be displayed on the front page of
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Cañas-Herrera, Cañas Herrera, Canas-Herrera]
+  first_name: [Guadalupe, G.]
 
   style: apa
   locale: en
