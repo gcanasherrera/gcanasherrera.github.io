@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-software",
+          title: "software",
+          description: "Open-source tools for precision cosmology, from Euclid pixels to posteriors.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/software/";
+          },
         },{id: "nav-outreach",
           title: "outreach",
           description: "Public engagement, science communication, and community involvement.",
