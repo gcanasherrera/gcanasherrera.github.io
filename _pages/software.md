@@ -2,149 +2,123 @@
 layout: page
 permalink: /software/
 title: software
-description: Open-source tools for precision cosmology, from Euclid pixels to posteriors.
+description: Open-source software for precision cosmology.
 nav: true
 nav_order: 3
 ---
 
 <div class="software-page">
 
-<p class="lead software-intro">
-Euclid will map a third of the sky and billions of galaxies. Turning that map into answers about <strong>dark matter</strong>, <strong>dark energy</strong> and <strong>gravity</strong> takes more than data: it takes fast, tested and open software. I build that software in the open, with the community, so that every number in a Euclid cosmology paper can be checked, reproduced and improved by anyone.
+<p class="software-intro">
+My goal is to deliver the next generation of precision cosmology results with the incoming Stage IV surveys. Over the last decade I have been involved in the development, verification and validation of the ESA Euclid mission, and along the way I have built new software to go from a cosmological model to predictions for the observables, from predictions to likelihoods, and from Euclid data products to parameter constraints I can trust.
+</p>
+
+<p class="software-intro">
+I have always kept in mind that the best cosmological constraints we will ever achieve will come from combining several surveys and data sets, not from any single one. That is why I make sure the software I develop is transferable and can be extended and applied to other experiments. Everything I do is open source, and most of it is built together with colleagues in the community (I am proudly a team player). If you use it, break it or want to improve it, I'd love to hear from you.
 </p>
 
 <p class="software-cta">
-  <a class="btn btn-sm software-btn" href="https://github.com/gcanasherrera" target="_blank"><i class="fa-brands fa-github"></i> github.com/gcanasherrera</a>
-  <a class="btn btn-sm software-btn" href="https://github.com/cloe-org" target="_blank"><i class="fa-solid fa-sitemap"></i> cloe-org</a>
-  <a class="btn btn-sm software-btn" href="https://github.com/euclidlib" target="_blank"><i class="fa-solid fa-satellite"></i> euclidlib</a>
+  <a class="btn btn-sm software-btn" href="https://github.com/gcanasherrera" target="_blank"><i class="fa-brands fa-github"></i> gcanasherrera</a>
+  <a class="btn btn-sm software-btn" href="https://github.com/cloe-org" target="_blank"><i class="fa-brands fa-github"></i> cloe-org</a>
+  <a class="btn btn-sm software-btn" href="https://github.com/euclidlib" target="_blank"><i class="fa-brands fa-github"></i> euclidlib</a>
 </p>
 
-## <i class="fa-solid fa-infinity"></i> The CLOE ecosystem
+## CLOE: the Euclid likelihood
 
-<p>The next generation of the <em>Cosmology Likelihood for Observables in Euclid</em>: a modular, pip-installable stack that takes you from cosmological parameters to Euclid likelihoods for every primary probe.</p>
+<p>CLOE (Cosmology Likelihood for Observables in Euclid) is how Euclid goes from data to cosmological parameters. Its new generation is split into two packages: one for theory, one for likelihoods.</p>
 
-<div class="row mt-3">
-
-<div class="col-md-12 mb-4">
-  <div class="card h-100 software-card software-card-featured">
-    <div class="card-body">
-      <h5 class="card-title"><i class="fa-solid fa-atom"></i> <a href="https://github.com/cloe-org/cloelib" target="_blank">cloelib</a> <span class="badge software-role">creator &amp; lead developer</span></h5>
-      <p class="card-text software-tagline">The theory engine behind Euclid cosmology.</p>
-      <p class="card-text">Euclid-like observables (angular power spectra, correlation functions, COSEBIs, spectroscopic multipoles) in minutes. It plugs into Boltzmann solvers and emulators (CAMB, CLASS, EuclidEmulator2, BACCO, CosmoPower-JAX, COMET and more) through clean Python protocols, and ships with a JAX playground for gradient-based inference.</p>
-      <pre class="software-install"><code>pip install cloelib</code></pre>
-      <p class="card-text software-links">
-        <a href="https://github.com/cloe-org/cloelib" target="_blank"><i class="fa-brands fa-github"></i> code</a>
-        <a href="https://pypi.org/project/cloelib/" target="_blank"><i class="fa-brands fa-python"></i> PyPI</a>
-        <a href="https://arxiv.org/abs/2605.23839" target="_blank"><i class="fa-solid fa-file-lines"></i> paper</a>
-      </p>
-    </div>
+<div class="software-card">
+  <div class="software-logo software-logo-icon"><i class="fa-solid fa-atom"></i></div>
+  <div class="software-body">
+    <h5><a href="https://github.com/cloe-org/cloelib" target="_blank">cloelib</a> <span class="software-role">creator &amp; lead developer</span></h5>
+    <p>The theory library. It computes Euclid observables (angular power spectra, correlation functions, COSEBIs and spectroscopic multipoles) from any cosmology, using Boltzmann solvers and emulators such as CAMB, CLASS, EuclidEmulator2, BACCO, CosmoPower-JAX or COMET through a common interface.</p>
+    <pre class="software-install"><code>pip install cloelib</code></pre>
+    <p class="software-links">
+      <a href="https://github.com/cloe-org/cloelib" target="_blank"><i class="fa-brands fa-github"></i> code</a>
+      <a href="https://pypi.org/project/cloelib/" target="_blank"><i class="fa-brands fa-python"></i> PyPI</a>
+      <a href="https://arxiv.org/abs/2605.23839" target="_blank"><i class="fa-solid fa-file-lines"></i> paper</a>
+    </p>
   </div>
 </div>
 
-<div class="col-md-6 mb-4">
-  <div class="card h-100 software-card">
-    <div class="card-body">
-      <h5 class="card-title"><i class="fa-solid fa-scale-balanced"></i> <a href="https://github.com/cloe-org/cloelike" target="_blank">cloelike</a> <span class="badge software-role">creator &amp; lead developer</span></h5>
-      <p class="card-text software-tagline">Where theory meets Euclid data.</p>
-      <p class="card-text">Likelihoods for all Euclid primary probes: 3×2pt in harmonic and real space, BNT C(ℓ), COSEBIs, spectroscopic full-shape and BAO, and their joint analysis. One <code>pip install</code> brings in the whole stack.</p>
-      <pre class="software-install"><code>pip install cloelike</code></pre>
-      <p class="card-text software-links">
-        <a href="https://github.com/cloe-org/cloelike" target="_blank"><i class="fa-brands fa-github"></i> code</a>
-        <a href="https://pypi.org/project/cloelike/" target="_blank"><i class="fa-brands fa-python"></i> PyPI</a>
-        <a href="https://arxiv.org/abs/2605.23841" target="_blank"><i class="fa-solid fa-file-lines"></i> paper</a>
-      </p>
-    </div>
+<div class="software-card">
+  <div class="software-logo"><img src="{{ '/assets/img/software/cloelike.png' | relative_url }}" alt="cloelike logo" loading="lazy"></div>
+  <div class="software-body">
+    <h5><a href="https://github.com/cloe-org/cloelike" target="_blank">cloelike</a> <span class="software-role">creator &amp; lead developer</span></h5>
+    <p>The likelihoods, built on cloelib. It covers all Euclid primary probes: photometric 3×2pt in harmonic and real space, BNT C(ℓ), COSEBIs, and spectroscopic full-shape and BAO, separately or combined. Installing it gives you the whole stack.</p>
+    <pre class="software-install"><code>pip install cloelike</code></pre>
+    <p class="software-links">
+      <a href="https://github.com/cloe-org/cloelike" target="_blank"><i class="fa-brands fa-github"></i> code</a>
+      <a href="https://pypi.org/project/cloelike/" target="_blank"><i class="fa-brands fa-python"></i> PyPI</a>
+      <a href="https://arxiv.org/abs/2605.23841" target="_blank"><i class="fa-solid fa-file-lines"></i> paper</a>
+    </p>
   </div>
 </div>
 
-<div class="col-md-6 mb-4">
-  <div class="card h-100 software-card">
-    <div class="card-body">
-      <h5 class="card-title"><i class="fa-solid fa-landmark"></i> <a href="https://github.com/cloe-org/CLOE" target="_blank">CLOE</a> <span class="badge software-role">core developer</span></h5>
-      <p class="card-text software-tagline">The original Euclid likelihood.</p>
-      <p class="card-text">The Euclid Consortium code that set the standard for combined photometric and spectroscopic analyses and powered the official Euclid forecasts and validation campaigns. It is the foundation the new ecosystem is built on.</p>
-      <p class="card-text software-links">
-        <a href="https://github.com/cloe-org/CLOE" target="_blank"><i class="fa-brands fa-github"></i> code</a>
-      </p>
-    </div>
+<div class="software-card">
+  <div class="software-logo software-logo-icon"><i class="fa-solid fa-landmark"></i></div>
+  <div class="software-body">
+    <h5><a href="https://github.com/cloe-org/CLOE" target="_blank">CLOE</a> <span class="software-role">core developer</span></h5>
+    <p>The original Euclid Consortium likelihood code, which we used for the official Euclid forecasts and validation. cloelib and cloelike grew out of it.</p>
+    <p class="software-links">
+      <a href="https://github.com/cloe-org/CLOE" target="_blank"><i class="fa-brands fa-github"></i> code</a>
+    </p>
   </div>
 </div>
 
-</div>
+## Euclid data and statistics
 
-## <i class="fa-solid fa-satellite-dish"></i> Euclid data &amp; statistics
-
-<div class="row mt-3">
-
-<div class="col-md-6 mb-4">
-  <div class="card h-100 software-card">
-    <div class="card-body">
-      <h5 class="card-title"><i class="fa-solid fa-database"></i> <a href="https://github.com/euclidlib/euclidlib" target="_blank">euclidlib</a> <span class="badge software-role">core developer</span></h5>
-      <p class="card-text software-tagline">Euclid data, ready for science in one line.</p>
-      <p class="card-text">A community Python library for reading Euclid's cosmology-ready data products (redshift distributions, two-point statistics, covariances and more) without wrestling with file formats.</p>
-      <pre class="software-install"><code>pip install euclidlib</code></pre>
-      <p class="card-text software-links">
-        <a href="https://github.com/euclidlib/euclidlib" target="_blank"><i class="fa-brands fa-github"></i> code</a>
-        <a href="https://pypi.org/project/euclidlib/" target="_blank"><i class="fa-brands fa-python"></i> PyPI</a>
-      </p>
-    </div>
+<div class="software-card">
+  <div class="software-logo"><img src="{{ '/assets/img/software/euclidlib.png' | relative_url }}" alt="euclidlib logo" loading="lazy"></div>
+  <div class="software-body">
+    <h5><a href="https://github.com/euclidlib/euclidlib" target="_blank">euclidlib</a> <span class="software-role">core developer</span></h5>
+    <p>A community Python library for reading Euclid's cosmology-ready data products, such as redshift distributions, two-point statistics and covariances, so you can spend your time on the science instead of the file formats.</p>
+    <pre class="software-install"><code>pip install euclidlib</code></pre>
+    <p class="software-links">
+      <a href="https://github.com/euclidlib/euclidlib" target="_blank"><i class="fa-brands fa-github"></i> code</a>
+      <a href="https://pypi.org/project/euclidlib/" target="_blank"><i class="fa-brands fa-python"></i> PyPI</a>
+    </p>
   </div>
 </div>
 
-<div class="col-md-6 mb-4">
-  <div class="card h-100 software-card">
-    <div class="card-body">
-      <h5 class="card-title"><i class="fa-solid fa-fish"></i> <a href="https://github.com/cloe-org/darkflipper" target="_blank">darkflipper</a> <span class="badge software-role">creator</span></h5>
-      <p class="card-text software-tagline">Flip the dark side of statistics in cosmology.</p>
-      <p class="card-text">Figures of Merit, Figures of Bias, p-values and tension metrics, with consistent definitions, so systematics studies are robust, transparent and publication-ready.</p>
-      <pre class="software-install"><code>pip install darkflipper</code></pre>
-      <p class="card-text software-links">
-        <a href="https://github.com/cloe-org/darkflipper" target="_blank"><i class="fa-brands fa-github"></i> code</a>
-        <a href="https://pypi.org/project/darkflipper/" target="_blank"><i class="fa-brands fa-python"></i> PyPI</a>
-      </p>
-    </div>
+<div class="software-card">
+  <div class="software-logo"><img src="{{ '/assets/img/software/darkflipper.png' | relative_url }}" alt="darkflipper logo" loading="lazy"></div>
+  <div class="software-body">
+    <h5><a href="https://github.com/cloe-org/darkflipper" target="_blank">darkflipper</a> <span class="software-role">creator</span></h5>
+    <p>Figures of Merit, Figures of Bias, p-values and other diagnostics I kept re-implementing for systematics studies, now in one place with clear definitions.</p>
+    <pre class="software-install"><code>pip install darkflipper</code></pre>
+    <p class="software-links">
+      <a href="https://github.com/cloe-org/darkflipper" target="_blank"><i class="fa-brands fa-github"></i> code</a>
+      <a href="https://pypi.org/project/darkflipper/" target="_blank"><i class="fa-brands fa-python"></i> PyPI</a>
+    </p>
   </div>
 </div>
 
-</div>
+## Teaching and reproducibility
 
-## <i class="fa-solid fa-book-open"></i> Open science &amp; teaching
-
-<div class="row mt-3">
-
-<div class="col-md-6 mb-4">
-  <div class="card h-100 software-card">
-    <div class="card-body">
-      <h5 class="card-title"><i class="fa-solid fa-chalkboard-user"></i> <a href="https://github.com/gcanasherrera/Stats4Cosmology" target="_blank">Stats4Cosmology</a></h5>
-      <p class="card-text software-tagline">Learn Bayesian cosmology by doing it.</p>
-      <p class="card-text">Hands-on notebooks covering everything from measuring H₀ with supernovae to running full cosmology chains and model comparison with Cobaya.</p>
-      <p class="card-text software-links">
-        <a href="https://github.com/gcanasherrera/Stats4Cosmology" target="_blank"><i class="fa-brands fa-github"></i> code</a>
-        <a href="https://doi.org/10.5281/zenodo.13614370" target="_blank"><i class="fa-solid fa-fingerprint"></i> DOI</a>
-      </p>
-    </div>
+<div class="software-card">
+  <div class="software-logo software-logo-icon"><i class="fa-solid fa-chalkboard-user"></i></div>
+  <div class="software-body">
+    <h5><a href="https://github.com/gcanasherrera/Stats4Cosmology" target="_blank">Stats4Cosmology</a></h5>
+    <p>The notebooks I use to teach statistics for cosmology: from measuring H₀ with supernovae to running cosmological chains and comparing models with Cobaya.</p>
+    <p class="software-links">
+      <a href="https://github.com/gcanasherrera/Stats4Cosmology" target="_blank"><i class="fa-brands fa-github"></i> code</a>
+      <a href="https://doi.org/10.5281/zenodo.13614370" target="_blank"><i class="fa-solid fa-fingerprint"></i> DOI</a>
+    </p>
   </div>
 </div>
 
-<div class="col-md-6 mb-4">
-  <div class="card h-100 software-card">
-    <div class="card-body">
-      <h5 class="card-title"><i class="fa-solid fa-chart-line"></i> <a href="https://github.com/gcanasherrera/Forecasting-Euclid" target="_blank">Forecasting-Euclid</a></h5>
-      <p class="card-text software-tagline">Euclid's final constraints, fully reproducible.</p>
-      <p class="card-text">The scripts and notebooks behind the Euclid DR3 end-of-mission forecasts, from CLOE likelihoods to Nautilus posteriors.</p>
-      <p class="card-text software-links">
-        <a href="https://github.com/gcanasherrera/Forecasting-Euclid" target="_blank"><i class="fa-brands fa-github"></i> code</a>
-        <a href="https://arxiv.org/abs/2510.09153" target="_blank"><i class="fa-solid fa-file-lines"></i> paper</a>
-      </p>
-    </div>
+<div class="software-card">
+  <div class="software-logo software-logo-icon"><i class="fa-solid fa-chart-line"></i></div>
+  <div class="software-body">
+    <h5><a href="https://github.com/gcanasherrera/Forecasting-Euclid" target="_blank">Forecasting-Euclid</a></h5>
+    <p>All the scripts and notebooks behind our forecasts for Euclid's end-of-mission (DR3) cosmological constraints, so anyone can rerun them.</p>
+    <p class="software-links">
+      <a href="https://github.com/gcanasherrera/Forecasting-Euclid" target="_blank"><i class="fa-brands fa-github"></i> code</a>
+      <a href="https://arxiv.org/abs/2510.09153" target="_blank"><i class="fa-solid fa-file-lines"></i> paper</a>
+    </p>
   </div>
 </div>
-
-</div>
-
-<p class="software-outro">
-<i class="fa-solid fa-hand-holding-heart"></i> All of these projects are open source and welcome contributions. Found a bug, want a new feature or just want to say hi? Open an issue or start a discussion on <a href="https://github.com/gcanasherrera" target="_blank">GitHub</a>.
-</p>
 
 </div>
 
@@ -157,15 +131,8 @@ Euclid will map a third of the sky and billions of galaxies. Turning that map in
   padding-bottom: 0.5rem;
 }
 
-.software-page h2 i,
-.software-page .card-title i,
-.software-page .software-outro i {
-  color: var(--global-theme-color);
-  margin-right: 0.5rem;
-}
-
 .software-page .software-intro {
-  font-size: 1.1rem;
+  font-size: 1.05rem;
   line-height: 1.7;
 }
 
@@ -186,49 +153,87 @@ Euclid will map a third of the sky and billions of galaxies. Turning that map in
 .software-page .software-btn:hover {
   background: var(--global-theme-color);
   color: var(--global-hover-text-color, #fff);
-  border-bottom-color: var(--global-theme-color);
 }
 
 .software-page .software-btn i {
   margin-right: 0.35rem;
 }
 
-.software-page .card {
+.software-page .software-card {
+  display: flex;
+  gap: 1.25rem;
+  align-items: flex-start;
+  padding: 1.25rem;
+  margin-bottom: 1.25rem;
   border: 1px solid var(--global-divider-color);
+  border-radius: 0.5rem;
+  background: var(--global-card-bg-color);
   box-shadow: 0 2px 4px rgba(0,0,0,0.05);
   transition: transform 0.2s, box-shadow 0.2s;
 }
 
-.software-page .card:hover {
+.software-page .software-card:hover {
   transform: translateY(-2px);
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-.software-page .software-card-featured {
-  border-left: 4px solid var(--global-theme-color);
+.software-page .software-logo {
+  flex: 0 0 88px;
+  width: 88px;
+  height: 88px;
+  border-radius: 0.75rem;
+  background: #fff;
+  border: 1px solid var(--global-divider-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.software-page .software-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.software-page .software-logo-icon {
+  background: transparent;
+  border: 2px solid var(--global-theme-color);
+  color: var(--global-theme-color);
+  font-size: 2.2rem;
+}
+
+.software-page .software-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.software-page .software-body h5 {
+  margin-bottom: 0.5rem;
 }
 
 .software-page .software-role {
+  display: inline-block;
   font-size: 0.7rem;
   font-weight: 500;
   vertical-align: middle;
   margin-left: 0.4rem;
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
   text-transform: uppercase;
   letter-spacing: 0.04em;
   border: 1px solid var(--global-theme-color);
   color: var(--global-theme-color);
-  background: transparent;
-}
-
-.software-page .software-tagline {
-  font-style: italic;
-  color: var(--global-text-color-light);
 }
 
 .software-page .software-install {
   margin: 0.5rem 0 0.75rem;
   padding: 0.4rem 0.75rem;
   font-size: 0.85rem;
+}
+
+.software-page .software-links {
+  margin-bottom: 0;
 }
 
 .software-page .software-links a {
@@ -251,8 +256,15 @@ Euclid will map a third of the sky and billions of galaxies. Turning that map in
   border-bottom-color: var(--global-theme-color);
 }
 
-.software-page .software-outro {
-  margin-top: 1.5rem;
-  text-align: center;
+@media (max-width: 576px) {
+  .software-page .software-card {
+    flex-direction: column;
+  }
+
+  .software-page .software-logo {
+    width: 64px;
+    height: 64px;
+    flex-basis: 64px;
+  }
 }
 </style>
