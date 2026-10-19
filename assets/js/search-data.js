@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-software",
           title: "software",
-          description: "Open-source tools for precision cosmology, from Euclid pixels to posteriors.",
+          description: "Open-source software for precision cosmology.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/software/";
